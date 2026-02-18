@@ -1,0 +1,12 @@
+{
+  "name": "putt-party-port",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
+}
