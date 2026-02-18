@@ -32,15 +32,23 @@ If it warns you about pasting, follow the instructions (usally by running "allow
 - (Issue with both official and port | Nitpick) Timer probably shouldn't decrement (or exist) during solo games.
 
 ## Desired features
+### High Priority
+- Multiplayer and Authentication (likely sharing logic with an upcoming Gartic Phone clone 👀)
+- Server hould be hosted somewhere natively or server should be emulated fully in the browser, instead of the current local JS server.
+- Move from an iframe to hosting more or all of the game ourselves. A code restructure could and likely would break functionality, styling is a pain in the ass, and we don't even need an iframe!
+
+### Medium Priority
+- Rewrite frontend in Solid+Tailwind? /hj
+- Button to leave the current game
+- Debug/Dev menu
+
+### Low Priority
 - Game customization/Mods
 - Custom maps with rudimentary editor
 - Golf ball skins
 - More game modes with a rule editor
-- Multiplayer and Authentication (likely sharing logic with an upcoming Gartic Phone clone 👀)
-- Debug/Dev menu
-- Server hould be hosted somewhere natively or server should be emulated fully in the browser, instead of the current local JS server.
-- Move from an iframe to hosting more or all of the game ourselves. A code restructure could and likely would break functionality, styling is a pain in the ass, and we don't even need an iframe!
-- Rewrite frontend in Solid+Tailwind? /hj
+
+
 
 ## Contributing
 Please do so!!! The game's most important logic is in the beautified (though, not yet un-minified and modularized) index.9fbea.js, have a gander and see if you can fix any of the issues.
