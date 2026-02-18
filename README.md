@@ -41,6 +41,7 @@ If it warns you about pasting, follow the instructions (usally by running "allow
 - Rewrite frontend in Solid+Tailwind? /hj
 - Button to leave the current game
 - Debug/Dev menu
+- Investigate Cocos engine, possible engine-level improvements?
 
 ### Low Priority
 - Game customization/Mods
